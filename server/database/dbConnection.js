@@ -1,7 +1,7 @@
 import { connect } from "mongoose";
 
 const dbConnection = async () => {
-    const connection = await connect('mongodb://localhost:27017/chatSocket.io')
+    const connection = await connect('mongodb://localhost:27017/chatSocketIo')
         .then(() => {
             console.log(`Database connected successfully`);
         })

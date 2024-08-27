@@ -1,0 +1,12 @@
+.sender:nth-child(odd){
+    color: #fff;
+    background-color: #09c !important;
+}
+.sender{
+    margin-block:10px ;
+    border-radius: 25px;
+    border: 1px solid #09c !important; 
+}
+.time{
+    font-size: 10px;
+}

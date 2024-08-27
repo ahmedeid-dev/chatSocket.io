@@ -9,5 +9,6 @@ userRouter
     .post('/', userCtrl.addUser)
     .put('/:id', userCtrl.updateUser)
     .delete('/:id', userCtrl.deleteUser)
+    .patch('/:id/password', userCtrl.changePassword)
 
 export default userRouter

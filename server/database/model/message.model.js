@@ -9,15 +9,19 @@ const messageSchema = new Schema({
             trim: true,
         }
     ],
+    createdAt: {
+        type: Date,
+        default: Date.now
+    },
     sender: {
         type: Types.ObjectId,
         ref: 'User',
-        required: true
+        // required: true
     },
     receiver: {
         type: Types.ObjectId,
         ref: 'User',
-        required: true
+        // required: true
     },
 
 });
